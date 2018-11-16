@@ -1,0 +1,12 @@
+#aside-mid-li-ul-8 {
+    display: block;
+}
+.main-out > h1 {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    color: #30333B;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #FFF, #7179A1 50%, #FFF 100%) no-repeat bottom /50% 1px;
+}

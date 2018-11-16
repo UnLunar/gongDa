@@ -1,0 +1,123 @@
+/*这个是导航栏的公共样式*/
+.no {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*<!-- 这是左侧的导航栏外框 -->*/
+html, body {
+    height: 100%;
+}
+
+.bd-out {
+    display: flex;
+    /*background: #30333B;*/
+}
+
+.aside {
+    width: 280px;
+    background: #30333B;
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
+    float: left;
+    display: inline;
+}
+
+/*<!-- !这个是左侧的导航栏内容 -->*/
+.aside-main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 100%;
+    margin-left: 20px;
+}
+
+/*Top*/
+.aside-top {
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #34373F;
+}
+
+.aside-top h1 {
+    color: white;
+    line-height: 50px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.a {
+    color: #FFFFFF;
+
+}
+.a:hover{
+    text-decoration: none;
+}
+
+.aside-mid {
+    width: 100%;
+    /*background: #000;*/
+}
+
+.aside-mid-li {
+    /*height: 50px;*/
+    border-bottom: 1px solid #34373F;
+}
+
+.aside-mid-li-out {
+    width: 100%;
+    height: 50px;
+}
+
+.aside-mid-li:hover {
+    border-bottom: 1px solid #188eee;
+}
+
+.aside-mid-li .icon {
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+}
+
+.aside-mid-li-h2 {
+    display: inline-block;
+    text-align: left;
+    color: white;
+    line-height: 50px;
+    font-size: 12px;
+}
+
+.aside-mid-li ul {
+    margin-left: 17px;
+    display: none;
+}
+
+.aside-mid-li ul li {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 12px;
+    color: #FFFFFF;
+    line-height: 25px;
+}
+
+.aside-mid-li ul li:hover {
+    color: greenyellow;
+}
+
+.aside-mid-li ul li span {
+    margin-right: 5px;
+}
+/*asid end*/
+.main-out {
+    padding: 30px 10% 10% 10%;
+    width: 80%;
+    background: #FFF;
+}

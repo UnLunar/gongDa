@@ -1,0 +1,60 @@
+/*这个是index独有的样式*/
+.main-out {
+    padding: 30px 10% 10% 10%;
+    width: 80%;
+    background: #FFF;
+}
+
+.main-top {
+    width: 100%;
+    display: flex;
+}
+.img{
+    width: 40%;
+    margin-right: 5%;
+    background: url("../img/people.png") ;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+.main-top h1, .main-mid h1 {
+    line-height: 30px;
+    color: #7179A1;
+    font-size: 16px;
+    font-weight: bold;
+    background: linear-gradient(to right, #7179A1, #FFF) no-repeat bottom /100% 1px;
+}
+
+.main-top h1 span {
+    font-weight: normal;
+    color: #188eee;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.main-top h2 {
+    margin: 5px 0 5px 0;
+    font-size: 12px;
+}
+
+.main-mid {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.main-mid ul li {
+    margin: 8px 0;
+    font-size: 12px;
+}
+
+.main-mid ul li span {
+    color: #188eee;
+    margin-right: 4px;
+}
+
+.main-mid ul li ol {
+    margin-left: 15px;
+}
+
+.main-mid ul li ol span {
+    color: blue;
+}
